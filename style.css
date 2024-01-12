@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.header{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo {
+display: inline-flex;
+padding: 31px 0px 9px 61px;
+justify-content: flex-end;
+align-items: center;
+}
+
+ 
+.logo img{
+width: 151px;
+height: 101px;
+}
+
+
+.text {
+    padding: 0  70px  0 500px;
+    
+    
+}
+
+
+.text a{
+color: #957554;
+font-family: Ubuntu;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+padding-right: 25px; 
+
+}
+
+
+
+.roms{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.roms a{
+color: #957554;
+font-family: Ubuntu;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+
+
+
+.roms {
+    margin-top: 69px;
+    margin-bottom: 68px;
+    
+}
+
+
+
+/* cards */
+
+
+
+.img{
+    width: 630px;
+    height: 500px;
+flex-shrink: 0;
+border-radius: 10px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.text1{
+color: #957554;
+font-family: Ubuntu;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+.text1 a{
+    color:#957554 ;
+    text-decoration: none;
+}
+
+
+.rooms{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 60px;
+} 
+
+
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    margin-left: 60px;
+}
+
+
+
+.text2{
+font-family: Ubuntu;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.text2 a{ 
+    
+    flex-shrink: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.button  {
+width: 244px;
+height: 76px;
+flex-shrink: 0;
+background: #DFAA5B;
+border-radius: 10PX;
+
+
+}
+
+
+.button a{
+text-decoration: none; 
+color: #FFF;
+font-family: Ubuntu;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 24px;
+
+
+}
+
+
+
+.rooms:nth-child(2n){
+flex-direction: row-reverse;
+margin-left: 130px;
+
+
+}
+
+
+.rooms{
+    max-width: 1440px;
+    width: 100%; 
+    
+}  
+
+
+
+.text :nth-child(2n){
+    display: grid;
+    order: 1;
+
+}
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+/* Gallery */
+
+
+.Gallery{
+
+font-family: Ubuntu;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.Gallery a{
+    color: #957554;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 107px;
+    margin-bottom: 68px;
+}
